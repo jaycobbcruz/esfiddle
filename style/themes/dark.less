@@ -19,5 +19,13 @@
             color: darken(white, 25%);
             .transition(all, 0.5s);
         }
+
+        .wrapper {
+            &.result-wrapper {
+                .result {
+                    border-left: 1px solid lighten(@black, 30%);
+                }
+            }
+        }
     }
 }
